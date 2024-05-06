@@ -1,0 +1,267 @@
+* { 
+    margin: 0;
+    padding: 0;
+}
+
+/* Body */
+
+body { 
+    background-color: #FFFFFF;
+}
+
+
+/* Header */
+
+header {
+    border-bottom: 1px solid black;
+    text-align: center;
+    padding: 10px 20px;
+
+}
+.logo {
+    width: 200px;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #545C66;
+    font-size: 2rem;
+}
+
+/* Main*/
+
+main {
+    margin: 20px
+    padding 200px
+}
+
+h1, h2, p, h3 {
+    text-align: center;
+    text-decoration: none;
+    margin: 20px 0px;
+    color: #545C66;
+}
+
+p {
+    font-size: 1.5rem;
+}
+/* Footer */
+
+footer {
+    margin: 20px;
+    padding: 20px;
+    border-top: 1px solid #545C66;
+    text-align: center;
+}
+
+.flexbox div {
+    width: 12.5rem;
+    height: 200px;
+    margin: 10px;
+}
+
+
+.flexbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    background-color: beige;
+}
+
+/*imagenes de fondo */
+
+.imagenes {
+    align-self: auto;
+}
+
+.imagen1 {
+    max-width: 30%;
+}
+
+.imagen2 {
+    max-width: 30%;
+}
+
+.imagen3 {
+    max-width: 30%;
+}
+
+.imagen4 {
+    max-width: 30%;
+}
+
+.imagen5 {
+    max-width: 30%;
+}
+
+.imagen6 {
+    max-width: 30%;
+    align-self: auto;
+}
+
+/*botones productos*/
+
+.contenedorBotones {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #545C66;
+    border: black;
+    font-style: bold;
+    border-bottom: black 0.5rem;
+}
+
+.agua {
+    border: 5px black;
+    background-color: gainsboro;
+    padding: 14px 28px;
+    cursor: pointer;
+    font-size: x-large;
+    display: inline-block;
+}
+
+.gel {
+    border: 5px black;
+    background-color: gainsboro;
+    padding: 14px 28px;
+    cursor: pointer;
+    font-size: x-large;
+    display: inline-block;
+}
+
+.serum {
+    border: 5px black;
+    background-color: gainsboro;
+    padding: 14px 28px;
+    cursor: pointer;
+    font-size: x-large;
+    display: inline-block;
+}
+
+.contorno {
+    border: 5px black;
+    background-color: gainsboro;
+    padding: 14px 28px;
+    cursor: pointer;
+    font-size: x-large;
+    display: inline-block;
+}
+
+.crema{
+    border: 5px black;
+    background-color: gainsboro;
+    padding: 14px 28px;
+    cursor: pointer;
+    font-size: x-large;
+    display: inline-block;
+}
+
+.protector {
+    border: 5px black;
+    background-color: gainsboro;
+    padding: 14px 28px;
+    cursor: pointer;
+    font-size: x-large;
+    display: inline-block;
+}
+
+.exfoliante {
+    border: 5px black;
+    background-color: gainsboro;
+    padding: 14px 28px;
+    cursor: pointer;
+    font-size: x-large;
+    display: inline-block;
+}
+
+.mascarillas {
+    border: 5px black;
+    background-color: gainsboro;
+    padding: 14px 28px;
+    cursor: pointer;
+    font-size: x-large;
+    display: inline-block;
+}
+
+/*botones mi piel*/ 
+.botonespiel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #545C66;
+    border: black;
+    font-style: bold;
+    border-bottom: black 0.5rem;
+}
+
+.grasa {
+    border: 5px black;
+    background-color: gainsboro;
+    padding: 14px 28px;
+    cursor: pointer;
+    font-size: x-large;
+    display: inline-block;
+}
+
+.seca {
+    border: 5px black;
+    background-color: gainsboro;
+    padding: 14px 28px;
+    cursor: pointer;
+    font-size: x-large;
+    display: inline-block;
+}
+
+.normal {
+    border: 5px black;
+    background-color: gainsboro;
+    padding: 14px 28px;
+    cursor: pointer;
+    font-size: x-large;
+    display: inline-block;
+}
+
+.sensible {
+    border: 5px black;
+    background-color: gainsboro;
+    padding: 14px 28px;
+    cursor: pointer;
+    font-size: x-large;
+    display: inline-block;
+}
+
+.mixta {
+    border: 5px black;
+    background-color: gainsboro;
+    padding: 14px 28px;
+    cursor: pointer;
+    font-size: x-large;
+    display: inline-block;
+}
+
+
+/*responsive*/
+/*vista mobile*/
+
+@media (max-width:320px) {
+    .nav ul li {
+        max-height: fit-content;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: xx-small;
+    }
+    .contenedorBotones {
+        height: auto;
+        flex-direction: column;
+    }
+}
